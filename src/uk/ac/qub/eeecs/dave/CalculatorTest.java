@@ -21,6 +21,6 @@ class CalculatorTest {
 	@Test
 	void testMultiply() {
 		Calculator c = new Calculator();
-		assertEquals(c.multiply(10,1), 7);
+		assertEquals(c.multiply(10,1), 10 );
 	}
 }
